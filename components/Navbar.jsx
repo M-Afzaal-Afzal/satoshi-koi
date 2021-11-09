@@ -8,6 +8,7 @@ import { FaDiscord } from "react-icons/fa";
 import { Link } from "react-scroll";
 import Typography from "@mui/material/Typography";
 import { FaInstalod } from "react-icons/fa";
+import Image from 'next/image';
 
 
 function Navbar() {
@@ -53,7 +54,7 @@ function Navbar() {
         }}
       >
         <Box component="div" id="left-nav" sx={{display:"flex",justifyContent:"center",alignItems:"center"}}>
-          <img id="logo" src="logo.png" alt="Logo" />
+          <Image width={67} height={122} id="logo" src="/logo.png" alt="Logo" />
           <Typography variant="h4" component="div" gutterBottom sx={{fontWeight:'800',color:'#FBFAF5',fontFamily:'Montserrat',fontSize:{
               xs:"20xp"
           }}} >
