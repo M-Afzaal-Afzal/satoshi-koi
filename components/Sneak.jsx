@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import { experimentalStyled as styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
+import Image from 'next/image';
 
 const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(0),
@@ -70,32 +71,32 @@ function Sneak() {
           <Grid sx={{justifyContent: "center",alignItems:'center'}} container gap={0} columns={{ md: 4, sm: 2, xs: 1 }}>
             <Grid sx={{ boxShadow: "none" }}>
               <Item sx={{ boxShadow: "none" }} className="item">
-                <img src="/sneak/1.png" alt="" />
+                <Image width={261} height={262} src="/sneak/1.png" alt="" />
               </Item>
             </Grid>
             <Grid sx={{ boxShadow: "none" }}>
               <Item sx={{ boxShadow: "none" }} className="item">
-                <img src="/sneak/2.png" alt="" />
+                  <Image width={261} height={262} src="/sneak/2.png" alt="" />
               </Item>
             </Grid>
             <Grid sx={{ boxShadow: "none" }}>
               <Item sx={{ boxShadow: "none" }} className="item">
-                <img src="/sneak/3.png" alt="" />
+                  <Image width={261} height={262} src="/sneak/3.png" alt="" />
               </Item>
             </Grid>
             <Grid sx={{ boxShadow: "none" }}>
               <Item sx={{ boxShadow: "none" }} className="item">
-                <img src="/sneak/4.png" alt="" />
+                  <Image width={261} height={262} src="/sneak/4.png" alt="" />
               </Item>
             </Grid>
             <Grid sx={{ boxShadow: "none" }}>
               <Item sx={{ boxShadow: "none" }} className="item">
-                <img src="/sneak/5.png" alt="" />
+                  <Image width={261} height={262} src="/sneak/5.png" alt="" />
               </Item>
             </Grid>
             <Grid sx={{ boxShadow: "none" }}>
               <Item sx={{ boxShadow: "none" }} className="item">
-                <img src="/sneak/6.png" alt="" />
+                  <Image width={261} height={262} src="/sneak/6.png" alt="" />
               </Item>
             </Grid>
           </Grid>

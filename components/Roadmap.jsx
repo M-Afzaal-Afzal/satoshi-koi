@@ -4,12 +4,20 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import { experimentalStyled as styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
+import Image from 'next/image';
 
 const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(0),
   margin: theme.spacing(3),
   backgroundColor: "unset",
   background: "unset",
+}));
+const Item1 = styled(Paper)(({ theme }) => ({
+  padding: theme.spacing(0),
+  margin: theme.spacing(-3),
+  backgroundColor: "unset",
+  background: "unset",
+  marginTop:'20px'
 }));
 
 function Roadmap() {
@@ -90,7 +98,7 @@ function Roadmap() {
                 fontSize: "45px",
                 fontWeight: "bold",
                 mr: 2,
-                lineHeight: "54.86px",
+                // lineHeight: "54.86px",
               }}
             >
               24Hours
@@ -124,19 +132,19 @@ function Roadmap() {
               columns={{ md: 3, sm: 2, xs: 1 }}
             >
               <Grid sx={{ boxShadow: "none" }}>
-                <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak1.png" alt="" />
-                </Item>
+                <Item1 sx={{ boxShadow: "none" }} className="item">
+                    <Image width={261} height={262} src="/roadmap/Giveaway_1.png" alt="" />
+                </Item1>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
-                <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak2.png" alt="" />
-                </Item>
+                <Item1 sx={{ boxShadow: "none" }} className="item">
+                    <Image width={261} height={262} src="/roadmap/Giveaway_2.png" alt="" />
+                </Item1>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
-                <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak3.png" alt="" />
-                </Item>
+                <Item1 sx={{ boxShadow: "none" }} className="item">
+                    <Image width={261} height={262} src="/roadmap/Giveaway_3.png" alt="" />
+                </Item1>
               </Grid>
             </Grid>
           </Box>
@@ -196,27 +204,27 @@ function Roadmap() {
             >
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak1.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak1.png" alt="" />
                 </Item>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak2.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak2.png" alt="" />
                 </Item>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak3.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak3.png" alt="" />
                 </Item>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak4.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak4.png" alt="" />
                 </Item>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak5.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak5.png" alt="" />
                 </Item>
               </Grid>
             </Grid>
@@ -277,27 +285,27 @@ function Roadmap() {
             >
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak6.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak6.png" alt="" />
                 </Item>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak7.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak7.png" alt="" />
                 </Item>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak8.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak8.png" alt="" />
                 </Item>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak9.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak9.png" alt="" />
                 </Item>
               </Grid>
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak10.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak10.png" alt="" />
                 </Item>
               </Grid>
             </Grid>
@@ -358,7 +366,7 @@ function Roadmap() {
             >
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak11.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak11.png" alt="" />
                 </Item>
               </Grid>
             </Grid>
@@ -419,7 +427,7 @@ function Roadmap() {
             >
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak12.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak12.png" alt="" />
                 </Item>
               </Grid>
             </Grid>
@@ -645,7 +653,7 @@ function Roadmap() {
             >
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                  <img src="/roadmap/weak12.png" alt="" />
+                    <Image width={138} height={138} src="/roadmap/weak12.png" alt="" />
                 </Item>
               </Grid>
             </Grid>
