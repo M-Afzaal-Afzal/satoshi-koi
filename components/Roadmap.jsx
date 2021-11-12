@@ -365,8 +365,8 @@ function Roadmap() {
               columns={{ md: 3, sm: 2, xs: 1 }}
             >
               <Grid sx={{ boxShadow: "none" }}>
-                <Item sx={{ boxShadow: "none" }} className="item">
-                    <Image width={138} height={138} src="/roadmap/weak11.png" alt="" />
+                <Item sx={{ boxShadow: "none" }} className="">
+                    <Image width={238} height={238} src="/roadmap/weak11.png" alt="" />
                 </Item>
               </Grid>
             </Grid>
@@ -427,7 +427,7 @@ function Roadmap() {
             >
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                    <Image width={138} height={138} src="/roadmap/weak12.png" alt="" />
+                    <Image width={238} height={238} src="/roadmap/weak12.png" alt="" />
                 </Item>
               </Grid>
             </Grid>
@@ -653,7 +653,7 @@ function Roadmap() {
             >
               <Grid sx={{ boxShadow: "none" }}>
                 <Item sx={{ boxShadow: "none" }} className="item">
-                    <Image width={138} height={138} src="/roadmap/weak12.png" alt="" />
+                    <Image width={238} height={238} src="/roadmap/weak12.png" alt="" />
                 </Item>
               </Grid>
             </Grid>
